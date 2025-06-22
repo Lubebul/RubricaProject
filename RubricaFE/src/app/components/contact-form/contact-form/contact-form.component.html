@@ -1,0 +1,81 @@
+<form [formGroup]="contactForm" (ngSubmit)="onSubmit()" class="contact-form">
+    <h2>{{ isEditing ? 'Modifica Contatto' : 'Nuovo Contatto' }}</h2>
+    
+    <div class="form-row">
+      <div class="form-group">
+        <label for="name">Nome *</label>
+        <input type="text" id="name" formControlName="name">
+        @if (contactForm.get('name')?.invalid && contactForm.get('name')?.touched) {
+          <div class="error">{{ nameError }}</div>
+        }
+      </div>
+      
+      <div class="form-group">
+        <label for="surname">Cognome *</label>
+        <input type="text" id="surname" formControlName="surname">
+        @if (contactForm.get('surname')?.invalid && contactForm.get('surname')?.touched) {
+          <div class="error">{{ surnameError }}</div>
+        }
+      </div>
+    </div>
+    
+    <div class="form-row">
+      <div class="form-group">
+        <label for="gender">Sesso *</label>
+        <select id="gender" formControlName="gender">
+          <option value="">Seleziona</option>
+          <option [ngValue]=0>Maschio</option>
+          <option [ngValue]=1>Femmina</option>
+        </select>
+        @if (contactForm.get('gender')?.invalid && contactForm.get('gender')?.touched) {
+          <div class="error">Sesso obbligatorio</div>
+        }
+      </div>
+      
+      <div class="form-group">
+        <label for="birthDate">Data di Nascita</label>
+        <input type="date" id="birthDate" formControlName="birthDate">
+      </div>
+    </div>
+    
+    <div class="form-row">
+      <div class="form-group">
+        <label for="email">Email *</label>
+        <input type="email" id="email" formControlName="email">
+        @if (contactForm.get('email')?.invalid && contactForm.get('email')?.touched) {
+          <div class="error">{{ emailError }}</div>
+        }
+      </div>
+      
+      <div class="form-group">
+        <label for="phoneNumber">Telefono</label>
+        <input type="tel" id="phoneNumber" formControlName="phoneNumber">
+        @if (contactForm.get('phoneNumber')?.invalid && contactForm.get('phoneNumber')?.touched) {
+          <div class="error">{{ phoneError }}</div>
+        }
+      </div>
+    </div>
+    
+    <div class="form-row">
+      <div class="form-group">
+        <label for="city">Città</label>
+        <select id="city" formControlName="city">
+          <option value="">Seleziona città</option>
+          @for (city of cities; track city) {
+            <option [value]="city">{{ city }}</option>
+          }
+        </select>
+      </div>
+    </div>
+    
+    <div class="form-actions">
+      <button type="submit" [disabled]="contactForm.invalid || isSubmitting" class="submit-button">
+        @if (isSubmitting) {
+          <span>Salvataggio in corso...</span>
+        } @else {
+          <span>{{ isEditing ? 'Salva Modifiche' : 'Aggiungi Contatto' }}</span>
+        }
+      </button>
+      <button type="button" (click)="cancel.emit()" class="cancel-button">Annulla</button>
+    </div>
+  </form>

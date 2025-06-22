@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Rubrica.Application/1.0.0": {
+        "dependencies": {
+          "Rubrica.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Rubrica.Application.dll": {}
+        }
+      },
+      "Rubrica.Domain/1.0.0": {
+        "runtime": {
+          "Rubrica.Domain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Rubrica.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Rubrica.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

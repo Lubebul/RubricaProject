@@ -1,0 +1,28 @@
+<div class="table-container">
+    <table class="contact-table">
+      <thead>
+        <tr>
+          <th>Nome</th>
+          <th>Cognome</th>
+          <th>Email</th>
+          <th>Città</th>
+        </tr>
+      </thead>
+      <tbody>
+        @for (contact of contacts; track contact.id) {
+          <tr (click)="selectContact(contact)" class="contact-row">
+            <td>{{ contact.name }}</td>
+            <td>{{ contact.surname }}</td>
+            <td>{{ contact.email }}</td>
+            <td>{{ contact.city || '-' }}</td>
+          </tr>
+        }
+      </tbody>
+    </table>
+  </div>
+  
+  @if (contacts.length === 0) {
+    <div class="no-contacts">
+      <p>Nessun contatto trovato</p>
+    </div>
+  }

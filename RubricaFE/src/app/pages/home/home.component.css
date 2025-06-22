@@ -1,0 +1,39 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .header-actions {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 0;
+  }
+  
+  .add-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .form-container, .detail-container {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  @media (max-width: 768px) {
+    .form-container, .detail-container {
+      padding: 15px;
+    }
+    
+    .add-button {
+      width: 100%;
+      padding: 12px;
+    }
+  }

@@ -1,0 +1,11 @@
+C:\Users\david\Documents\Rubrica\RubricaBE\Rubrica.Domain\bin\Debug\net8.0\Rubrica.Domain.deps.json
+C:\Users\david\Documents\Rubrica\RubricaBE\Rubrica.Domain\bin\Debug\net8.0\Rubrica.Domain.dll
+C:\Users\david\Documents\Rubrica\RubricaBE\Rubrica.Domain\bin\Debug\net8.0\Rubrica.Domain.pdb
+C:\Users\david\Documents\Rubrica\RubricaBE\Rubrica.Domain\obj\Debug\net8.0\Rubrica.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\david\Documents\Rubrica\RubricaBE\Rubrica.Domain\obj\Debug\net8.0\Rubrica.Domain.AssemblyInfoInputs.cache
+C:\Users\david\Documents\Rubrica\RubricaBE\Rubrica.Domain\obj\Debug\net8.0\Rubrica.Domain.AssemblyInfo.cs
+C:\Users\david\Documents\Rubrica\RubricaBE\Rubrica.Domain\obj\Debug\net8.0\Rubrica.Domain.csproj.CoreCompileInputs.cache
+C:\Users\david\Documents\Rubrica\RubricaBE\Rubrica.Domain\obj\Debug\net8.0\Rubrica.Domain.dll
+C:\Users\david\Documents\Rubrica\RubricaBE\Rubrica.Domain\obj\Debug\net8.0\refint\Rubrica.Domain.dll
+C:\Users\david\Documents\Rubrica\RubricaBE\Rubrica.Domain\obj\Debug\net8.0\Rubrica.Domain.pdb
+C:\Users\david\Documents\Rubrica\RubricaBE\Rubrica.Domain\obj\Debug\net8.0\ref\Rubrica.Domain.dll

@@ -1,0 +1,39 @@
+<div class="detail-card">
+    <button class="close-button" (click)="close.emit()">×</button>
+    
+    <h2>{{ contact.name }} {{ contact.surname }}</h2>
+    
+    <div class="detail-grid">
+      <div class="detail-item">
+        <span class="label">Email:</span>
+        <span class="value">{{ contact.email }}</span>
+      </div>
+      
+      <div class="detail-item">
+        <span class="label">Sesso:</span>
+        <span class="value">{{ contact.gender === 0 ? 'Maschio' : 'Femmina' }}</span>
+      </div>
+      
+      <div class="detail-item">
+        <span class="label">Telefono:</span>
+        <span class="value">{{ contact.phoneNumber || '-' }}</span>
+      </div>
+      
+      <div class="detail-item">
+        <span class="label">Città:</span>
+        <span class="value">{{ contact.city || '-' }}</span>
+      </div>
+      
+      @if (contact.birthDate) {
+        <div class="detail-item">
+          <span class="label">Data di nascita:</span>
+          <span class="value">{{ contact.birthDate | date:'dd/MM/yyyy' }}</span>
+        </div>
+      }
+    </div>
+    
+    <div class="action-buttons">
+      <button class="edit-button" (click)="edit.emit()">Modifica</button>
+      <button class="delete-button" (click)="delete.emit()">Elimina</button>
+    </div>
+  </div>

@@ -1,0 +1,34 @@
+<div class="home-container">
+    <div class="header-actions">
+      <button class="add-button" (click)="showAddForm()">Aggiungi Contatto</button>
+    </div>
+  
+    @if (showForm) {
+      <div class="form-container">
+        <app-contact-form 
+          [contact]="contactToEdit"
+          [isEditing]="isEditing"
+          (saved)="handleContactSaved()"
+          (cancel)="showForm = false">
+        </app-contact-form>
+      </div>
+    }
+  
+    @if (selectedContact) {
+      <div class="detail-container">
+        <app-contact-detail 
+          [contact]="selectedContact"
+          (edit)="showEditForm(selectedContact)"
+          (delete)="handleDelete(selectedContact.id)"
+          (close)="selectedContact = null">
+        </app-contact-detail>
+      </div>
+    }
+  
+    <div class="list-container">
+      <app-contact-list 
+        [contacts]="contacts"
+        (select)="showContactDetail($event)">
+      </app-contact-list>
+    </div>
+  </div>

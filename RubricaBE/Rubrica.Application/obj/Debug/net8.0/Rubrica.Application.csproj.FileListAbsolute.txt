@@ -1,0 +1,15 @@
+C:\Users\david\Documents\Rubrica\RubricaBE\Rubrica.Application\bin\Debug\net8.0\Rubrica.Application.deps.json
+C:\Users\david\Documents\Rubrica\RubricaBE\Rubrica.Application\bin\Debug\net8.0\Rubrica.Application.dll
+C:\Users\david\Documents\Rubrica\RubricaBE\Rubrica.Application\bin\Debug\net8.0\Rubrica.Application.pdb
+C:\Users\david\Documents\Rubrica\RubricaBE\Rubrica.Application\bin\Debug\net8.0\Rubrica.Domain.dll
+C:\Users\david\Documents\Rubrica\RubricaBE\Rubrica.Application\bin\Debug\net8.0\Rubrica.Domain.pdb
+C:\Users\david\Documents\Rubrica\RubricaBE\Rubrica.Application\obj\Debug\net8.0\Rubrica.Application.csproj.AssemblyReference.cache
+C:\Users\david\Documents\Rubrica\RubricaBE\Rubrica.Application\obj\Debug\net8.0\Rubrica.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\david\Documents\Rubrica\RubricaBE\Rubrica.Application\obj\Debug\net8.0\Rubrica.Application.AssemblyInfoInputs.cache
+C:\Users\david\Documents\Rubrica\RubricaBE\Rubrica.Application\obj\Debug\net8.0\Rubrica.Application.AssemblyInfo.cs
+C:\Users\david\Documents\Rubrica\RubricaBE\Rubrica.Application\obj\Debug\net8.0\Rubrica.Application.csproj.CoreCompileInputs.cache
+C:\Users\david\Documents\Rubrica\RubricaBE\Rubrica.Application\obj\Debug\net8.0\Rubrica..DC3DE6CF.Up2Date
+C:\Users\david\Documents\Rubrica\RubricaBE\Rubrica.Application\obj\Debug\net8.0\Rubrica.Application.dll
+C:\Users\david\Documents\Rubrica\RubricaBE\Rubrica.Application\obj\Debug\net8.0\refint\Rubrica.Application.dll
+C:\Users\david\Documents\Rubrica\RubricaBE\Rubrica.Application\obj\Debug\net8.0\Rubrica.Application.pdb
+C:\Users\david\Documents\Rubrica\RubricaBE\Rubrica.Application\obj\Debug\net8.0\ref\Rubrica.Application.dll

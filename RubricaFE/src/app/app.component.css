@@ -1,0 +1,20 @@
+.app-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  header, footer {
+    padding: 20px 0;
+    text-align: center;
+  }
+  main {
+    flex: 1;
+  }
+  @media (max-width: 768px) {
+    .app-container {
+      padding: 10px;
+    }
+  }
