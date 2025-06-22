@@ -1,3 +1,13 @@
+FRONTEND 
+
+1 eseguire npm install nella cartella RubricaFE per installare i pacchetti
+2 eseguire il comando "ng serve" per eseguire l'app
+
+
+
+
+BACKEND
+
 1 Modificare AppSetting.json per configurare DB con la connectionstring
 
 2 esegui "dotnet ef database update" per applicare le migrazioni e generare il DB popolato con le città
